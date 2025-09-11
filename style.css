@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #3f778c;
+    color: #fff;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.logo a{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    margin-left: 30px;
+    list-style: none;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+nav ul li a:hover{
+    color: black;
+}
+
+.search{
+    position: relative;
+}
+
+.search input{
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #042d29;
+    color: #fff;
+}
+
+.search button{
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    border-radius: 20px;
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+}
+
+.hero{
+    background-color: #323d42;
+    padding: 70px 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero h1{
+    font-size: 48px;
+    color: #fff;
+}
+
+.hero p{
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.main-content{
+    background-color: #f4ddb8;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px, 0px, 10px rgba(0, 0, 0, 0.2);
+}
+
+.books{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    margin-top: 40px;
+}
+
+.book{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.book img{
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.book h3{
+    font-size: 24px;
+    margin-top: 0px;
+}
+
+.book p{
+    margin-top: 5px;
+    color: black;
+}
+
+.btn{
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #7b7868;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.4s ease;
+}
+
+.btn:hover{
+    background-color: #2d3a38;
+}
+
+footer{
+    background-color: #3f778c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
