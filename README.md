@@ -1,7 +1,9 @@
 # 📚 BookShop Website
 
-A responsive BookShop website developed using **HTML, CSS, and JavaScript**.  
-This project provides a simple and user-friendly interface for browsing books and accessing user login and registration pages.
+A responsive BookShop website developed using **HTML, CSS, and JavaScript**.
+
+### 🌐 Live Demo
+[🚀 View Live Website](https://shonali280.github.io/BookShop/)
 
 ## ✨ Features
 
