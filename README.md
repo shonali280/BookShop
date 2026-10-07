@@ -6,7 +6,7 @@ A responsive BookShop website developed using **HTML, CSS, and JavaScript**.
 [🚀 View Live Website](https://shonali280.github.io/BookShop/)
 
 
-\## 🖥️ Project Preview
+##🖥️ Project Preview
 
 <p align="center">
   <img src="resources/bookshop-preview.png" alt="BookShop Website Preview" width="900">
